@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: limits-services
+  cloud: 
+    config: 
+      url: http://localhost:8888
+  profiles:
+    active: qa
+
